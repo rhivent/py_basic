@@ -1,6 +1,9 @@
 import random
 import curses
 
+
+# run program: python 99snake.py
+
 s = curses.initscr()
 curses.curs_set(0)
 sh, sw = s.getmaxyx()
